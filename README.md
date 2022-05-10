@@ -1,4 +1,6 @@
-This repository holds any and all style guides related to Re:Earth repositories.
+This repository holds coding style guides related to Re:Earth repositories.
+
+*For other documentation, such as beginner material, setup guides, system reference and more, please go to [docs.reearth.io](https://docs.reearth.io/).*
 
 # Guides
 
