@@ -1,7 +1,7 @@
-This repository holds any and all style guides related to Re:Earth's repositories.
+This repository holds any and all style guides related to Re:Earth repositories.
 
 # Guides
 
 ## Frontend Style Guide
 
-This frontend guide helps to keep Re:Earth, Re:Earth CMS and any internal Re:Earth repositories' code consistent. This is in hope that any community member or core member can work across repositories freely with few headaches. 
+This [frontend style guide](https://github.com/reearth/guides/frontend/style.md) helps to keep [Re:Earth](https://github.com/reearth/reearth), [Re:Earth CMS](https://github.com/reearth/reearth-cms) and any internal Re:Earth repositories' code consistent. This is in hope that any community member or core member can work across repositories freely with few headaches. 
