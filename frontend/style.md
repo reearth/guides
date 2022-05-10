@@ -62,7 +62,6 @@ row before the </tbody></table> line.
   - [Atomic Design](#atomic-design)
   - [How to write paths](#how-to-write-paths)
   - [Spacing and order](#spacing-and-order)
-  - [Destructuring](#destructuring)
   - [Spread and Rest syntax](#spread-and-rest-syntax)
 
 ## Introduction
