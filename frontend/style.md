@@ -157,6 +157,8 @@ export const IMPORT_DATASET = gql`
 
 We have two styles when naming functions: `onXXXX` and `handleXXXX`. Note both are camelCase. We use `onXXXX` for functional props, and we use `handleXXXX` when we are locally declaring the function.
 
+Also we have abbreviation like CSV, JSON and HTML. The abbreviation should be integrated into lowercase or uppercase like `xxxCSV` or `csvXXX`.
+
 **Word order**
 
 Should be `nounVerb`. Combining this with deliberate prop or export order keeps things very easy to read.
@@ -196,6 +198,8 @@ handleProjectUpdate
 **Naming**
 
 Descriptive over short. Context matters, of course, so generic code can and should have `name` instead of `teamName`. But typically `teamName` is preferable over `name`.
+
+Also we have abbreviation like CSV, JSON and HTML. The abbreviation should be integrated into lowercase or uppercase like `xxxCSV` or `csvXXX`.
 
 ### Commenting
 
