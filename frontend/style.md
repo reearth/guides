@@ -236,3 +236,25 @@ Since file content varies in size, complexity, whether it is a component or util
 ### Spread and Rest syntax
 
 When possible use spread and rest syntax. If props, write `...props`, not `...rest` or another word.
+
+### Naming Conventions
+
+Abbreviations, like CSV, JSON or HTML, should always be uppercase OR lowercase.
+
+<table>
+<thead><tr><th>Bad</th><th>Good</th></tr></thead>
+<tbody>
+<tr><td>
+
+```TypeScript
+const parseCsv = () => {}
+```
+
+</td><td>
+
+```TypeScript
+const parseCSV = () => {}
+```
+
+</td></tr>
+</tbody></table>
