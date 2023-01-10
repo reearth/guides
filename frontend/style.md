@@ -63,6 +63,7 @@ row before the </tbody></table> line.
   - [How to write paths](#how-to-write-paths)
   - [Spacing and order](#spacing-and-order)
   - [Spread and Rest syntax](#spread-and-rest-syntax)
+  - [Working with dependencies](#working-with-dependencies)
 
 ## Introduction
 ---
@@ -254,6 +255,35 @@ const parseCsv = () => {}
 
 ```TypeScript
 const parseCSV = () => {}
+```
+
+</td></tr>
+</tbody></table>
+
+### Working with Dependencies
+
+When adding, be deliberate on whether a dependency is a dev dependency or not. Also, don't forget to use the `-E` parameter so that the exact same version is used in all environments. This is especially important for local development.
+
+Cheat table
+<table>
+<thead><tr><th>Action</th><th>Syntax</th></tr></thead>
+<tbody>
+<tr><td>
+Add new
+</td><td>
+
+```Bash
+yarn add <package...> -E
+```
+
+</td></tr>
+
+<tr><td>
+Mass upgrades
+</td><td>
+
+```Bash
+yarn upgrade-interactive --latest
 ```
 
 </td></tr>
